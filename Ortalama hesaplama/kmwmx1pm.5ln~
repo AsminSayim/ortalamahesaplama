@@ -1,0 +1,137 @@
+﻿namespace Ortalama_hesaplama
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblYazili1 = new System.Windows.Forms.Label();
+            this.lblYazili2 = new System.Windows.Forms.Label();
+            this.txtYazili2 = new System.Windows.Forms.TextBox();
+            this.txtYazili1 = new System.Windows.Forms.TextBox();
+            this.btnHesapla = new System.Windows.Forms.Button();
+            this.lblOrtalama = new System.Windows.Forms.Label();
+            this.txtOrtalama = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // lblYazili1
+            // 
+            this.lblYazili1.AutoSize = true;
+            this.lblYazili1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblYazili1.Location = new System.Drawing.Point(14, 51);
+            this.lblYazili1.Name = "lblYazili1";
+            this.lblYazili1.Size = new System.Drawing.Size(84, 25);
+            this.lblYazili1.TabIndex = 0;
+            this.lblYazili1.Text = "Yazılı1";
+            this.lblYazili1.Click += new System.EventHandler(this.lblYazili1_Click);
+            // 
+            // lblYazili2
+            // 
+            this.lblYazili2.AutoSize = true;
+            this.lblYazili2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblYazili2.Location = new System.Drawing.Point(14, 84);
+            this.lblYazili2.Name = "lblYazili2";
+            this.lblYazili2.Size = new System.Drawing.Size(84, 25);
+            this.lblYazili2.TabIndex = 1;
+            this.lblYazili2.Text = "Yazılı2";
+            // 
+            // txtYazili2
+            // 
+            this.txtYazili2.Location = new System.Drawing.Point(127, 90);
+            this.txtYazili2.Name = "txtYazili2";
+            this.txtYazili2.Size = new System.Drawing.Size(100, 20);
+            this.txtYazili2.TabIndex = 2;
+            // 
+            // txtYazili1
+            // 
+            this.txtYazili1.Location = new System.Drawing.Point(127, 51);
+            this.txtYazili1.Name = "txtYazili1";
+            this.txtYazili1.Size = new System.Drawing.Size(100, 20);
+            this.txtYazili1.TabIndex = 3;
+            this.txtYazili1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // btnHesapla
+            // 
+            this.btnHesapla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnHesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHesapla.Location = new System.Drawing.Point(127, 127);
+            this.btnHesapla.Name = "btnHesapla";
+            this.btnHesapla.Size = new System.Drawing.Size(107, 32);
+            this.btnHesapla.TabIndex = 4;
+            this.btnHesapla.Text = "Hesapla";
+            this.btnHesapla.UseVisualStyleBackColor = false;
+            this.btnHesapla.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblOrtalama
+            // 
+            this.lblOrtalama.AutoSize = true;
+            this.lblOrtalama.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblOrtalama.Location = new System.Drawing.Point(14, 180);
+            this.lblOrtalama.Name = "lblOrtalama";
+            this.lblOrtalama.Size = new System.Drawing.Size(107, 25);
+            this.lblOrtalama.TabIndex = 5;
+            this.lblOrtalama.Text = "Ortalama";
+            // 
+            // txtOrtalama
+            // 
+            this.txtOrtalama.Enabled = false;
+            this.txtOrtalama.Location = new System.Drawing.Point(127, 185);
+            this.txtOrtalama.Name = "txtOrtalama";
+            this.txtOrtalama.Size = new System.Drawing.Size(100, 20);
+            this.txtOrtalama.TabIndex = 6;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(471, 366);
+            this.Controls.Add(this.txtOrtalama);
+            this.Controls.Add(this.lblOrtalama);
+            this.Controls.Add(this.btnHesapla);
+            this.Controls.Add(this.txtYazili1);
+            this.Controls.Add(this.txtYazili2);
+            this.Controls.Add(this.lblYazili2);
+            this.Controls.Add(this.lblYazili1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblYazili1;
+        private System.Windows.Forms.Label lblYazili2;
+        private System.Windows.Forms.TextBox txtYazili2;
+        private System.Windows.Forms.TextBox txtYazili1;
+        private System.Windows.Forms.Button btnHesapla;
+        private System.Windows.Forms.Label lblOrtalama;
+        private System.Windows.Forms.TextBox txtOrtalama;
+    }
+}
+
